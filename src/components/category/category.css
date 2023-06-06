@@ -1,0 +1,24 @@
+#category {
+  padding: 0;
+  margin-top: ;
+  justify-content: right;
+  width: 100vw;
+}
+
+.category-ctn {
+  width: 100%;
+  /* align-items: center; */
+  display: flex;
+  justify-content: right;
+}
+.category-card {
+  border: 1px solid rgb(120, 123, 123);
+  font-size: 14px;
+  padding: 0.25rem .25rem;
+  color: #111;
+  text-decoration: none;
+}
+.category-card:hover {
+  background-color: cadetblue;
+  color: #fff;
+}

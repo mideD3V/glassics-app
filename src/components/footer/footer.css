@@ -1,0 +1,11 @@
+#footer{
+      background-color: rgb(103, 192, 240);
+}
+
+#footer-ctn{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 7rem;
+    background-color: rgb(30, 36, 40);
+    color: aliceblue;
+}

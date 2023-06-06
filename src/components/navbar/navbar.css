@@ -1,0 +1,105 @@
+@font-face {
+  font-family: Recoleta;
+  src: url("../../assets/Recoleta-RegularDEMO.otf");
+}
+
+nav {
+  height: 5rem;
+  background-color: var(--main-background);
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  justify-content: space-around;
+  padding: 5px 3rem;
+  z-index: 1;
+}
+
+.logo {
+  width: max-content;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0;
+  display: flex;
+}
+
+.logo p {
+  color: #59a844;
+  font-weight: bold;
+  margin: 0 -25px;
+  padding: 0.5rem;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  /* border-left: 5px solid rgb(30, 36, 40); */
+  font-family: Roboto, sans-serif;
+}
+.logo img {
+  width: 80px;
+}
+
+.nav-options {
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+}
+
+.nav-options {
+  color: aliceblue;
+
+  margin: auto 0;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+
+  align-items: center;
+  margin: auto;
+}
+.nav-opt {
+  color: aliceblue;
+
+  display: flex;
+  text-decoration: none;
+  margin: 0;
+  align-items: center;
+}
+.nav-opt:hover {
+  color: rgb(255, 162, 0);
+}
+.nav-icon {
+  margin-right: 10px;
+  scale: 1.15;
+}
+
+.search-ctn {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.search-ctn input {
+  padding: 5px;
+  width: 80%;
+  border: 0.5px solid grey;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.search-btn {
+  color: aliceblue;
+  background-color: cadetblue;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.search-btn:hover {
+  background-color: rgb(42, 80, 81);
+  cursor: pointer;
+}
